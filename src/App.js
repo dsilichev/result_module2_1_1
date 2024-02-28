@@ -1,6 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
+// начало декларативного подхода
 function App() {
   return (
     <div className="App">
@@ -17,9 +18,11 @@ function App() {
         >
           Learn React
         </a>
+        <p>{new Date().getFullYear()}</p>
       </header>
     </div>
   );
 }
+// конец декларативного подхода
 
 export default App;
